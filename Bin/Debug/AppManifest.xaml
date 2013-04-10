@@ -1,0 +1,12 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="PhoneApp6" EntryPointType="PhoneApp6.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="PhoneApp6" Source="PhoneApp6.dll" />
+    <AssemblyPart x:Name="CIAPI.Phone7" Source="CIAPI.Phone7.dll" />
+    <AssemblyPart x:Name="CIAPI.Serializer.Phone7" Source="CIAPI.Serializer.Phone7.dll" />
+    <AssemblyPart x:Name="Newtonsoft.Json" Source="Newtonsoft.Json.dll" />
+    <AssemblyPart x:Name="Salient.ReflectiveLoggingAdapter.Phone7" Source="Salient.ReflectiveLoggingAdapter.Phone7.dll" />
+    <AssemblyPart x:Name="Salient.ReliableHttpClient.Phone7" Source="Salient.ReliableHttpClient.Phone7.dll" />
+    <AssemblyPart x:Name="Salient.ReliableHttpClient.Serializer.Newtonsoft.Phone7" Source="Salient.ReliableHttpClient.Serializer.Newtonsoft.Phone7.dll" />
+    <AssemblyPart x:Name="WindowsPhoneClient" Source="WindowsPhoneClient.dll" />
+  </Deployment.Parts>
+</Deployment>
